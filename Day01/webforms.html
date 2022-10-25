@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "style.css">
+        <title>Web forms</title>
+        <style>
+            /* CSS style tag: used to apply the style to the webpage */
+            /* p{
+                color: blue;
+            }
+            label{
+                color: chocolate;
+            } */
+        </style>
+    </head>
+    <body>
+        <h1>Facebook Page</h1>
+        <form>
+            <label for = "username">Login ID: </label>
+            <input type = "text" id = "username" placeholder="apna username daal bro" required>
+            <br>
+            <br>
+            <label for = "password">Enter password: </label>
+            <input type = "password" id = "password" placeholder="password chupaake daal" required>
+
+            <p>Gender:</p>
+
+            <input type = "radio" name = "gender" id = "male">
+            <label for = "male">Male</label>
+            <br>
+
+            <input type = "radio" name = "gender" id = "female">
+            <label for = "female">Female</label>
+            <br>
+
+            <label for = "security">Security Question</label>
+            <select name  = "security" id = "security">
+                <option value = "q1">What is your favourite place?</option>
+                <option value = "q2">What is your favourite food?</option>
+                <option value = "q3">What is your favourite subject?</option>
+            </select>
+            <br>
+            <br>
+            <label for = "answer">Write your answer</label>
+            <input type = "text" id = "answer">
+
+            <br>
+            <br>
+            <label for = "bio">Your bio</label>
+            <br>
+            <textarea name = "bio" id = "bio" cols = "20" rows = "10" placeholder = "Khud k baare mai likh na bhai........"></textarea>
+            <br>
+            <input type = "submit" value = "Aage badhte hai">
+        </form>
+    </body>
+</html>
